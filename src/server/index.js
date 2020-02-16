@@ -4,6 +4,7 @@ const cors = require('cors');
 const mockAPIResponse = require('./mockAPI.js');
 const aylien = require("aylien_textapi");
 const dotenv = require('dotenv');
+const bodyParser = require('body-parser');
 
 dotenv.config();
 // set aylien API credentias
@@ -13,7 +14,7 @@ const textapi = new aylien({
 });
 
 const app = express();
-
+app.use(bodyParser.json());
 app.use(express.static('dist'));
 app.use(cors());
 console.log(__dirname);
@@ -27,9 +28,10 @@ app.listen(8081, function () {
     console.log('Example app listening on port 8081!')
 });
 
-app.get('/test', function (req, res) {
+app.post('/test', function (req, res) {
+    console.log(req.body);
     textapi.sentiment({
-        'text': 'John is a very good football player!'
+        'url': req.body.data
     }, function(error, response) {
         if (error === null) {
             console.log(response);
