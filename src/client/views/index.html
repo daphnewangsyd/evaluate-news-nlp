@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/be/Lineage_OS_Logo.png" alt="logo" class="logo">
+            </div>
+            <div>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="https://docs.aylien.com/">Aylien</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://udacity.com/">Udacity</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <h3 class="form-title">Sentiment Analysis Helper</h3>
+                <form class="" onsubmit="return handleSubmit(event)">
+                    <label for="name">Please enter a sentence for evaluation:</label>
+                    <input id="name" type="text" name="input" value="" placeholder="Sentence to test..." minlength="10" maxlength="500">
+                    <input type="submit" name="" value="Submit" onclick="return NlpClient.handleSubmit(event)" onsubmit="return NlpClient.handleSubmit(event)">
+                </form>
+            </section>
+
+            <section>
+                <h5>Results:</h5>
+                <div id="results"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="footer">Powered by Daphne Wang.</p>
+        </footer>
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+        </script>
+    </body>
+</html>

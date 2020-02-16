@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.nav {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-item {
+    display: block;
+    padding: .5rem 1rem;
+
+    a {
+        padding-right: .5rem;
+        padding-left: .5rem;
+        color: #cbbde2;
+    }
+}

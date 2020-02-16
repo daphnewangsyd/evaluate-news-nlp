@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93af4bfc-27dc-4b94-845c-e015e20f7e66" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XpcSdCzZlOqDZ98TmzbtOYZcoW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alex-daphne\Documents\evaluate-news-nlp\src\client\js\__tests__" />
+      <recent name="C:\Users\alex-daphne\Documents\evaluate-news-nlp\src\client\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.Test Form Handler">
+    <configuration name="It accepts correct input (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/client/js/inputChecker.test.js" />
+      <test-names>
+        <test-name value="It accepts correct input" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="It accepts correct input" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/client/js/__tests__/inputChecker.test.js" />
+      <test-names>
+        <test-name value="It accepts correct input" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="It calls the handler" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/client/js/__tests__/formHandler.test.js" />
+      <test-names>
+        <test-name value="It calls the handler" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="It rejects incorrect input" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/client/js/__tests__/inputChecker.test.js" />
+      <test-names>
+        <test-name value="It rejects incorrect input" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Test Form Handler" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/client/js/__tests__/formHandler.test.js" />
+      <test-names>
+        <test-name value="Test Form Handler" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build-dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build-prod" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-prod" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.build-dev" />
+      <item itemvalue="npm.Server" />
+      <item itemvalue="npm.build-prod" />
+      <item itemvalue="Jest.It accepts correct input" />
+      <item itemvalue="Jest.It accepts correct input (1)" />
+      <item itemvalue="Jest.It rejects incorrect input" />
+      <item itemvalue="Jest.It calls the handler" />
+      <item itemvalue="Jest.Test Form Handler" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Test Form Handler" />
+        <item itemvalue="Jest.It calls the handler" />
+        <item itemvalue="Jest.It rejects incorrect input" />
+        <item itemvalue="Jest.It accepts correct input (1)" />
+        <item itemvalue="Jest.It accepts correct input" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93af4bfc-27dc-4b94-845c-e015e20f7e66" name="Default Changelist" comment="" />
+      <created>1581746477798</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581746477798</updated>
+      <workItem from="1581746479011" duration="8288000" />
+      <workItem from="1581805320826" duration="7590000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="300" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581758326759">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="550" y="300" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581758326759" />
+    <state x="712" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581746907970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="712" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1581746907970" />
+    <state width="1899" height="284" key="GridCell.Tab.0.bottom" timestamp="1581813000634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1581813000634" />
+    <state width="1899" height="284" key="GridCell.Tab.0.center" timestamp="1581813000634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1581813000634" />
+    <state width="1899" height="284" key="GridCell.Tab.0.left" timestamp="1581813000634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1581813000634" />
+    <state width="1899" height="284" key="GridCell.Tab.0.right" timestamp="1581813000634">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1581813000634" />
+  </component>
+</project>
